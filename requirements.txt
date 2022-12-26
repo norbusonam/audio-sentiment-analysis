@@ -1,6 +1,7 @@
 certifi==2022.12.7
 cffi==1.15.1
 charset-normalizer==2.1.1
+distlib==0.3.6
 et-xmlfile==1.1.0
 ffmpeg-python==0.2.0
 filelock==3.8.2
@@ -14,6 +15,7 @@ openpyxl==3.0.10
 packaging==22.0
 pandas==1.5.2
 pandas-stubs==1.5.2.221213
+platformdirs==2.6.0
 pycparser==2.21
 python-dateutil==2.8.2
 python-dotenv==0.21.0
@@ -31,4 +33,5 @@ transformers==4.25.1
 types-pytz==2022.7.0.0
 typing_extensions==4.4.0
 urllib3==1.26.13
-whisper==1.0
+virtualenv==20.17.1
+whisper @ git+https://github.com/openai/whisper.git@0b5dcfdef7ec04250b76e13f1630e32b0935ce76
