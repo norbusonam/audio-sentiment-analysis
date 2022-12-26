@@ -11,4 +11,5 @@ filename = "./recordings/" + filename
 
 # record and save file
 myrecording = sd.rec(seconds * fs, samplerate=fs, channels=1)
-write(filename, fs, myrecording)  # Save as WAV file 
+sd.wait()
+write(filename, fs, myrecording)
